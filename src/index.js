@@ -1,7 +1,5 @@
 import React from 'react';
-import {render} from 'react-dom';
-import TodoList from './component/TodoList';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-const list = ['a', 'b', 'c'];
-
-render(<TodoList list={list}/>, document.querySelector('#app'));
+ReactDOM.render(<App />, document.querySelector('#app'));
